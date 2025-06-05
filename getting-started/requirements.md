@@ -28,7 +28,7 @@ Using a Lite Version of Raspberry Pi OS **will not work**.
 Raspberry Pi OS versions based on Debian "Buster" are also no longer supported.
 :::
 
-## Node
+## NodeJS
 
 Please refer to the
 [release page](https://github.com/MagicMirrorOrg/MagicMirror/releases) to see
