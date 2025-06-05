@@ -82,7 +82,7 @@ team. Use these scripts and methods at your own risk.
 
 ### Windows
 
-::: warning IMPORTANT
+::: warning IMPORTANT TEST
 
 MagicMirror² is designed to run on Linux. But with an extra step in the
 installation process and a different start command, you can also run it on
