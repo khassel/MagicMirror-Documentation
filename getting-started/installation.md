@@ -23,8 +23,8 @@ At the time, no consideration was given to other use cases — at least not from
 security perspective.
 
 You should never make MagicMirror² directly accessible (machine address is on
-internet). If such a setup is required, you should place a reverse proxy with
-authentication in front of it.
+internet). If such a setup is required, place it behind a properly configured
+reverse proxy with authentication, HTTPS, and strict network access controls.
 
 Otherwise, you risk inadvertently exposing secrets defined in the configuration
 or exposing the host to attacks via MagicMirror².
