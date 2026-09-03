@@ -12,6 +12,25 @@ is at your own risk but can make the process a lot easier. Available automatic
 installers can be found under:
 [alternative installation methods](#alternative-installation-methods).
 
+::: warning IMPORTANT
+
+**Security Notice**
+
+This software was originally designed to run on a Raspberry Pi and display on a
+connected screen.
+
+At the time, no consideration was given to other use cases — at least not from a
+security perspective.
+
+You should never make MagicMirror² accessible to the public via the Internet. If
+such a setup is required, you should place a reverse proxy with authentication
+in front of it.
+
+Otherwise, you risk inadvertently exposing secrets defined in the configuration
+or exposing the host to attacks via MagicMirror².
+
+:::
+
 ## Manual Installation
 
 These instructions deploy a standalone version of MagicMirror², for
